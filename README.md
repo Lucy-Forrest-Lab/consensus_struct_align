@@ -1,7 +1,7 @@
 # Consensus.pl 		  
 Program to fuse alignments and 
 calculate confidence values	  
-### date: 05.05.2015 by Marcus Stamm in the Forrest Lab		  
+date: 05.05.2015 by Marcus Stamm in the Forrest Lab		  
 
 This is a script that can fuse 4 alignments and calculate confidence values for each sequence position. 
 For this purpose, 4 pairwise sequence alignments in fasta format have to be submitted.
@@ -25,7 +25,7 @@ The higher the value of the confidence score, the more reliable that column of t
 - enter the following command: 
 `perl Consensus.pl -i  ./examples/dalilite.fa ./examples/frtmalign.fa ./examples/fatcat.fa ./examples/matt.fa -m DALI FR-TM-align FATCAT MATT -o output_consensus.txt`
 
---
+---
 
 Help with converting structural alignments into fasta format: 
 Please note that there are scripts to convert structure alignment outputs from DALILITE, FR-TMalign, FATCAT and MATT into fasta format in the directory /struct2fasta. 
